@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Restaurant</string>
+    <string-array name="utype">
+        <item>Public</item>
+        <item>Restaurant</item>
+    </string-array>
+    <string-array name="ftype">
+        <item>Veg</item>
+        <item>Non-Veg</item>
+    </string-array>
+    <string name="submit">Submit</string>
+    <string name="reset">Reset</string>
+    <string name="login">Login</string>
+    <string name="img_upload">Upload image</string>
+</resources>

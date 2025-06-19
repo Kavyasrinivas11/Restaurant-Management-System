@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".AddCatActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp">
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btnAddCat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:clickable="true"
+            app:srcCompat="@android:drawable/ic_input_add" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_category"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/addCatPopup"
+        android:layout_width="match_parent"
+        android:layout_height="249dp"
+        android:layout_marginTop="150dp"
+        android:visibility="gone"
+        android:paddingTop="80dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/txtCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Category Name"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnCataddSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sumbit" />
+    </LinearLayout>
+</FrameLayout>

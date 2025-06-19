@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".AdminHomeActivity">
+
+    <Button
+        android:id="@+id/btnApproveHotel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Approve Restaurant"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="52dp" />
+</LinearLayout>
